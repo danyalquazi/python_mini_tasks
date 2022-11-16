@@ -1,0 +1,8 @@
+f = open("ar.txt","a")
+#print(f.read())
+#print(f.read())
+f.write("My name is Danyal")
+f.close()
+b= open("ar.txt","r")
+print(b.read())
+b.close()
